@@ -1,0 +1,63 @@
+.container {
+  margin: 100px auto;
+  width: 400px;
+  height: 350px;
+  border: 1px solid black;
+}
+
+.head_text {
+  text-align: center;
+  margin: 20px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.userInfo {
+  /* margin: 20px; */
+}
+
+.user_name {
+  margin: 30px 10px;
+  font-weight: 700;
+}
+
+.user_name_input {
+  margin-top: 10px;
+  display: block;
+  width: 98%;
+  height: 25px;
+}
+
+.room_name {
+  margin: 30px 10px;
+  font-weight: 700;
+}
+
+.room_name_input {
+  margin-top: 10px;
+  display: block;
+  width: 98%;
+  height: 25px;
+}
+
+.joinBnt {
+  margin: 30px 10px;
+  width: 380px;
+  height: 25px;
+}
+
+.chat_container {
+  margin: 40px auto;
+  width: 100%;
+  height: 450px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.chattingList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
